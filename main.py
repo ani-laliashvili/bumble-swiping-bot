@@ -3,11 +3,11 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 import time
 
-FACEBOOK_ID = '8048695051'
-PASSWORD = 'TavKombalaIdiotiNasha28$%Varo'
+FACEBOOK_ID = 'myfacebooklogin@gmail.com'
+PASSWORD = 'myfacebooklogin'
 
 URL = 'https://bumble.com/app'
-CHROME_DRIVER_PATH = 'C:\\Users\\anila\\ChromeDriver\\chromedriver.exe'
+CHROME_DRIVER_PATH = 'C:\\PATH\\chromedriver.exe'
 
 driver = webdriver.Chrome(service=Service(CHROME_DRIVER_PATH))
 main_window_handle = driver.current_window_handle
